@@ -9,7 +9,7 @@
   text-align: justify;
 }
 .profile-card {
-  width: 720px;
+  width: 780px;
   max-width: calc(100vw - 10px);
 }
 body {
@@ -39,40 +39,50 @@ img {
 .profile-image {
   margin-top: -60px;
 }
-/* Contact links */
-
 ul {
   list-style-type: none;
 }
-
 li {
   display: inline;
 }
 .head, .about {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .content {
-  padding: 5% 10%;
+  padding: 2,5% 5%;
 }
 body {
-  background:no-repeat center center fixed;
+  background: URL('assets/elegant.jpg') no-repeat center center fixed;
   background-size: cover;
+  font-family: 'Brush Script MT', cursive;
+  color: rgb(249, 26, 82);
+  font-size: 20px;
 }
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
+  background-color: rgba(0,0,0,0.5);
   border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  box-shadow: hsla(0, 0%, 0%, 0.6) 10px 10px 80px;
 }
 img {
   padding: 1px;
-  background-color: #666;
+  background-color: rgb(249, 26, 82);
 }
 .content {
-  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  border-top: 2px solid rgb(249, 26, 82);
 }
 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
   transition: all 0.5s ease-in-out;
   filter: grayscale(20%);
 }
 
+.job {
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+a {
+  color: rgb(249, 26, 82);
+}
+.profile-card:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
