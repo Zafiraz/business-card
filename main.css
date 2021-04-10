@@ -9,32 +9,26 @@
   text-align: justify;
 }
 .profile-card {
-  width: 48.75rem;
-  max-width: calc(100vw - 0.625rem);
+  width: 75%;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-body {
   height: 100vh;
+  width: 100vw;
 }
 .head, .links {
   text-align: center;
 }
-.head, .content {
-  width: 90%;
-  margin: 0 auto;
+.head .content {
+  width: 95%;
+  margin: 0;
 }
 img {
   width: 7.5rem;
   height: 7.5rem;
   border-radius: 50%;
-}
-img {
-  width: 7.5rem;
-  height: 7.5rem;
 }
 .profile-image {
   margin-top: -3.75rem;
@@ -46,7 +40,7 @@ li {
   display: inline;
 }
 .head, .about {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .content {
   padding: 2.5% 5%;
@@ -79,7 +73,7 @@ img:hover {
 
 .job {
   margin-bottom: 1.25rem;
-  margin-left: 1.5625rem;
+  margin: 3%;
 }
 a {
   color: rgb(249, 26, 82);
